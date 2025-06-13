@@ -17,7 +17,7 @@ export default function App() {
       <Texto style={styles.red}> </Texto>
       <Texto style={styles.green}> </Texto>
       <Texto style={styles.pink}> </Texto>
-      <Button title='Presioname!'></Button>
+      
       <StatusBar style="auto" />
     </View>
   );
@@ -29,15 +29,16 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
+    alignItems: 'base-line',
     justifyContent: 'center',
+    flexDirection: 'column',
   },
 
 text:{
  color:'blue',
  fontSize:25,
- height:100,
- with:100,
+ /*height:100,*/
+ /*width:100,*/
 
  },
 red:{backgroundColor:'red'},
